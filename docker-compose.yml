@@ -1,0 +1,10 @@
+services:
+  qa-server:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: qa-server
+    expose:
+      - 8000
+    ports:
+      - 8000:8000
