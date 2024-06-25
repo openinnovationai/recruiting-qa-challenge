@@ -44,6 +44,8 @@ fastapi dev application.py
 
 After starting the server the documentation can be checked at http://localhost:8000/docs
 
+The API documentation can also be found in `docs/openapi.json`.
+
 ## Sample Requests
 
 ### Add Model
