@@ -46,6 +46,13 @@ After starting the server the documentation can be checked at http://localhost:8
 
 The API documentation can also be found in `docs/openapi.json`.
 
+The bundled documentation is `docs/index.html` (auto-generated with ``).
+
+```shell
+npm install -g redoc-cli
+redoc-cli bundle -o index.html openapi.json
+```
+
 ## Sample Requests
 
 ### Add Model
